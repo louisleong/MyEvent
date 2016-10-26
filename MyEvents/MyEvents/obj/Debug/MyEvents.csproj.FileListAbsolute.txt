@@ -60,3 +60,5 @@ C:\Users\louis\Downloads\Xamarin\Dev-Days-HOL-master\01 Dev-Labs\Finish\MyEvents
 C:\Users\louis\Downloads\Xamarin\Dev-Days-HOL-master\01 Dev-Labs\Finish\MyEvents\MyEvents\bin\Debug\MyEvents.dll.mdb
 C:\Users\louis\Downloads\Xamarin\Dev-Days-HOL-master\01 Dev-Labs\Finish\MyEvents\MyEvents\obj\Debug\MyEvents.dll.mdb
 C:\Users\louis\Downloads\Xamarin\Dev-Days-HOL-master\01 Dev-Labs\Finish\MyEvents\MyEvents\bin\Debug\MyEvents.dll.mdb
+C:\Users\louis\Source\Repos\MyEvent\MyEvents\MyEvents\obj\Debug\MyEvents.dll.mdb
+C:\Users\louis\Source\Repos\MyEvent\MyEvents\MyEvents\bin\Debug\MyEvents.dll.mdb
