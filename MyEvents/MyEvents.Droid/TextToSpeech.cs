@@ -18,7 +18,7 @@ namespace MyEvents.Droid
 
         public void Speak(string text)
         {
-            var ctx = Forms.Context; //useful for many Android SDK features...
+            var ctx = Forms.Context; //useful for many Android SDK features.....
             toSpeak = text;
             if (speaker == null)
             {
