@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Microsoft.Azure.Mobile;
 
 namespace MyEvents.Droid
 {
@@ -20,6 +21,9 @@ namespace MyEvents.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            MobileCenter.Configure("b5e8002a-6f5a-450c-83f6-9cfd0da24109");
+
             LoadApplication(new App());
 
             //hello

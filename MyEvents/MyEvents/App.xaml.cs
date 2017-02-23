@@ -1,4 +1,7 @@
-﻿using MyEvents.Views;
+﻿using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
+using MyEvents.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +22,7 @@ namespace MyEvents
             var speakersPage = new NavigationPage(new SpeakersPage()) { Title = "Speakers" };
             var aboutPage = new NavigationPage(new AboutPage()) { Title = "About" };
 
-            Device.OnPlatform(iOS: () => {
+            Xamarin.Forms.Device.OnPlatform(iOS: () => {
                 sessionsPage.Icon = "tab_feed.png";
                 speakersPage.Icon = "tab_person.png";
                 aboutPage.Icon = "tab_about.png";
@@ -36,6 +39,7 @@ namespace MyEvents
         protected override void OnStart()
         {
             // Handle when your app starts
+            MobileCenter.Start(typeof(Analytics), typeof(Crashes));
         }
 
         protected override void OnSleep()
