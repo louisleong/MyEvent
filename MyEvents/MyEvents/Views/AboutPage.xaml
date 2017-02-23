@@ -38,7 +38,7 @@
               <FormattedString.Spans>
                 <Span Text="This app is built using" />
                 <Span Text=" "/>
-                <Span Text="Xamarin" FontAttributes="Bold" />
+                <Span Text="Xamarin!" FontAttributes="Bold" />
                 <Span Text="." />
               </FormattedString.Spans>
             </FormattedString>
